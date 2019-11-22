@@ -132,3 +132,10 @@ class Tag(object):
         self.idx2tag[2] = 'M'
         self.idx2tag[3] = 'E'
         self.idx2tag[4] = 'S'
+
+# get the voc dictionary vocab.pickle
+if __name__ == '__main__':
+    for id in [['DM', 'SL', 'CG']]:
+        vocab1 = Vocab('./glove.6B/glove.6B.300d.txt', 1, 1, id, 5)
+        cPickle.dump((vocab1.word_vectors, vocab1.word2idx, vocab1.idx2word),
+                     open(os.path.join(os.path.join(DIR, 'model_dump'), "vocab.pickle"), 'w'))
