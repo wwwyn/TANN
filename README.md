@@ -2,7 +2,7 @@
 
 This is the code for paper [Exploiting Topic-based Adversarial Neural Network for Cross-domain Keyphrase Extraction](https://ieeexplore.ieee.org/document/8594884) (ICDM 2018)
 
-If you find the code helpful, please cite the paper:
+If you use the code, please kindly cite the paper:
 ```
 @inproceedings{wang2018exploiting,
   title={Exploiting Topic-based Adversarial Neural Network for Cross-domain Keyphrase Extraction},
